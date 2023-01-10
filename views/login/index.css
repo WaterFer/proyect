@@ -1,0 +1,30 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  /* 1 */
+  border-width: 0;
+  /* 2 */
+  border-style: solid;
+  /* 2 */
+  border-color: #e5e7eb;
+  /* 2 */
+}
+
+.link{
+    border-right-width: medium;
+}
+
+#titulo{
+    font-family: 'Lora', serif;
+
+}
+
+.text{
+    font-family: 'Anton', sans-serif;
+
+}
+
+.btn{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
