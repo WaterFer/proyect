@@ -30,7 +30,6 @@ const validation = (e, validation, element) => {
         element.classList.remove('border-2', 'border-rose-500');
 
     }if (validation) {
-        el
         element.classList.remove('border-2', 'border-rose-500');
         element.classList.add('border-2', 'border-green-500');
     } else {
